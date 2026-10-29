@@ -14,7 +14,9 @@
 
 | Rooli | Tarve | Oikeudet |
 |---|---|---|
-
+| Ei kirjatunut käyttäjä| Selata elokuvia ja nähdä niiden perustietoja, nähdä yleisiä arvosteluja ja vastaanottaa linkillä jaettuja listoja | Selata elokuvia ja arvosteluja. etsiä elokuvia ja tarkastella linkillä jaettuja listoja |
+| Kirjautunut käyttäjä | Antaa arvosteluja, muokata omia elokuvatietoja ja osallistua ryhmätoimintaan | Luoda listoja ja jakaa niitä linkillä, antaa arvosteluja, liittyä ryhmiin ja osallistu ryhmän sisäiseen keskusteluun |
+| Ryhmän ylläpitäjä | Perustaa ryhmän ja hallita sen toimnintaa | Perustaa ryhmän, hyväksyä ja hylätä liittymispyyntöjä, poistaa jäseniä, antaa ylläpito-oikeuksia toisille jäsenille |
 ## 3. Käyttötilanne
 
 
@@ -30,18 +32,19 @@ Jokaisella vaatimuksella on yksilöllinen tunniste. **Must** tarkoittaa ensimmä
 | FR-04 | Sovellus hakee elokuvien perustiedot ja julisteet ulkoisesta rajapinnasta (TMDb). | Must |
 | FR-05 | Käyttäjä voi rekisteröityä ja kirjautua palveluun käyttäjätunnuksella sekä turvallisella/laadukkaalla salasanalla. | Must |
 | FR-06 | Kirjautunut käyttäjä voi tarkastella omaa profiilisivuaan ja omia antamiaan arvosteluja. | Must |
-| FR-07 | Kirjautunut käyttäjä voi antaa elokuvalle arvostelun (tähtiarvio 1–5 ja/tai kirjallinen mielipide). | Must |
-| FR-08 | Kaikki käyttäjät voivat lukea elokuvien julkisia arvosteluja, joissa näkyy arvostelijan nimi ja ajankohta. | Must |
-| FR-09 | Kirjautunut käyttäjä voi perustaa ryhmän. | Must |
-| FR-10 | Ryhmän perustaja/ylläpitäjä voi hyväksyä tai hylätä ryhmään pyrkivien liittymispyynnöt. | Must |
-| FR-11 | Ryhmän jäsen voi poistua ryhmästä. | Must |
-| FR-12 | Ryhmän ylläpitäjä voi poistaa jäsenen ryhmästä. | Must |
-| FR-13 | Ryhmän ylläpitäjä voi antaa ylläpito-oikeuksia toiselle jäsenelle. Ylläpitäjän poistuessa oikeudet siirtyvät automaattisesti toiselle jäsenelle. | Must |
-| FR-14 | Ryhmällä on oma sivu, jossa näkyvät ryhmän jäsenten suositukset ja tekemät arvostelut. | Must |
-| FR-15 | Ryhmän sisällä on chat ominaisuus. | Must |
-| FR-16 | Käyttäjä näkee elokuvateatterien esitysajat ja -paikat. | Should |
-| FR-17 | Sovellus osaa suositella käyttäjälle samantyyppisiä elokuvia aiemman käyttöhistorian/suositusten perusteella. | Could |
-| FR-18 | Ryhmä voi luoda omia yhteisiä listoja, joita vain ryhmän ylläpitäjä(t) voivat muokata. | Should |
+| FR-07 | Kirjatunut käyttäjä voi luoda listoja ja jakaa niitä (suosikit, myöhemmin katsottavat). | Must|
+| FR-09 | Kirjautunut käyttäjä voi antaa elokuvalle arvostelun (tähtiarvio 1–5 ja/tai kirjallinen mielipide). | Must |
+| FR-09 | Kaikki käyttäjät voivat lukea elokuvien julkisia arvosteluja, joissa näkyy arvostelijan nimi ja ajankohta. | Must |
+| FR-10 | Kirjautunut käyttäjä voi perustaa ryhmän. | Must |
+| FR-11 | Ryhmän perustaja/ylläpitäjä voi hyväksyä tai hylätä ryhmään pyrkivien liittymispyynnöt. | Must |
+| FR-12 | Ryhmän jäsen voi poistua ryhmästä. | Must |
+| FR-13 | Ryhmän ylläpitäjä voi poistaa jäsenen ryhmästä. | Must |
+| FR-14 | Ryhmän ylläpitäjä voi antaa ylläpito-oikeuksia toiselle jäsenelle. Ylläpitäjän poistuessa oikeudet siirtyvät automaattisesti toiselle jäsenelle. | Must |
+| FR-15 | Ryhmällä on oma sivu, jossa näkyvät ryhmän jäsenten suositukset ja tekemät arvostelut. | Must |
+| FR-16 | Ryhmän sisällä on chat ominaisuus. | Must |
+| FR-17 | Käyttäjä näkee elokuvateatterien esitysajat ja -paikat. | Should |
+| FR-18 | Sovellus osaa suositella käyttäjälle samantyyppisiä elokuvia aiemman käyttöhistorian/suositusten perusteella. | Could |
+| FR-19 | Ryhmä voi luoda omia yhteisiä listoja, joita vain ryhmän ylläpitäjä(t) voivat muokata. | Should |
 
 
 ### 4.1 Tarkemmat hyväksymiskriteerit: FR-03 ()
