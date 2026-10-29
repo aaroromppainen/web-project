@@ -33,7 +33,7 @@ Jokaisella vaatimuksella on yksilöllinen tunniste. **Must** tarkoittaa ensimmä
 | FR-05 | Käyttäjä voi rekisteröityä ja kirjautua palveluun käyttäjätunnuksella sekä turvallisella/laadukkaalla salasanalla. | Must |
 | FR-06 | Kirjautunut käyttäjä voi tarkastella omaa profiilisivuaan ja omia antamiaan arvosteluja. | Must |
 | FR-07 | Kirjatunut käyttäjä voi luoda listoja ja jakaa niitä (suosikit, myöhemmin katsottavat). | Must|
-| FR-09 | Kirjautunut käyttäjä voi antaa elokuvalle arvostelun (tähtiarvio 1–5 ja/tai kirjallinen mielipide). | Must |
+| FR-08 | Kirjautunut käyttäjä voi antaa elokuvalle arvostelun (tähtiarvio 1–5 ja/tai kirjallinen mielipide). | Must |
 | FR-09 | Kaikki käyttäjät voivat lukea elokuvien julkisia arvosteluja, joissa näkyy arvostelijan nimi ja ajankohta. | Must |
 | FR-10 | Kirjautunut käyttäjä voi perustaa ryhmän. | Must |
 | FR-11 | Ryhmän perustaja/ylläpitäjä voi hyväksyä tai hylätä ryhmään pyrkivien liittymispyynnöt. | Must |
